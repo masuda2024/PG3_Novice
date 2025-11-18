@@ -2,7 +2,7 @@
 
 #include "GameManager.h"
 
-const char kWindowTitle[] = "LE2D_21_マスダ_アキヒロ_タイトル";
+const char kWindowTitle[] = "LE2D_21_マスダ_アキヒロ_PG3_04_01_ステートパターン";
 
 // Windowsアプリでのエントリーポイント(main関数)
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
