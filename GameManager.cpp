@@ -31,7 +31,7 @@ int GameManager::Run()
 		memcpy(preKeys, keys, 256);
 		Novice::GetHitKeyStateAll(keys);
 		
-		sceneArr_[currentSceneNo_]->Update();
+		sceneArr_[currentSceneNo_]->Update(keys, preKeys);
 		sceneArr_[currentSceneNo_]->Draw();
 		Novice::EndFrame();
 		if (preKeys[DIK_ESCAPE] == 0 && keys[DIK_ESCAPE] != 0)

@@ -20,7 +20,7 @@ public:
 
 	// ISceneの純粋仮想関数を実装
 	void Initialize() override;
-	void Update() override;
+	void Update(char* keys, char* preKeys) override;
 	void Draw() override;
 
 	int Run();

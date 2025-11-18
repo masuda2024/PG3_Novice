@@ -7,7 +7,7 @@ class ClearScene : public IScene
 public:
 
 	void Initialize() override;
-	void Update(char* keys, char* preKeys);
+	void Update();
 	void Draw() override;
 };
 
